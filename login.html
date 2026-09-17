@@ -10,17 +10,20 @@
       <header>
         <!-- Descrição -->
         <h1>Fazer Login</h1>
-        <ul>
-          <li><a href="index.html">Retornar ao Índice</a></li>
-          <li><a href="main.html">Página Principal</a></li>
-        </ul>
+        
+        <nav>
+          <ul>
+            <li><a href="index.html">Retornar ao Índice</a></li>
+            <li><a href="main.html">Página Principal</a></li>
+          </ul>
+        </nav>
       </header>
     </main>
     <!-- Solicitação das credenciais de login -->
     <section id="Inserir Credenciais">
       <h2>Digite a senha</h2>
       <form action="pages\iniciar-questionario.html" method="get">
-        <input type="password" name="senha" placeholder="Senha" required />
+        <input aria-required="true" type="password" name="senha" placeholder="Senha" required />
         <button type="submit">Entrar</button>
       </form>
     </section>
